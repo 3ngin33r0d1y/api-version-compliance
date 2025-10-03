@@ -26,7 +26,7 @@ management:
       exposure:
         include: health,info
 cors:
-  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:*}
   allowed-methods: GET,POST,DELETE,PUT,OPTIONS
   allowed-headers: "*"
   allow-credentials: true
